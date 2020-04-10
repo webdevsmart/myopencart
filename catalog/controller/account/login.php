@@ -3,7 +3,7 @@ class ControllerAccountLogin extends Controller {
 	private $error = array();
 
 	public function index() {
-		$this->load->model('account/customer');
+		//$this->load->model('account/customer');
 
 		// Login override for admin users
 		if (!empty($this->request->get['token'])) {
