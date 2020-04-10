@@ -1,0 +1,39 @@
+## Config and Htaccess Files
+/.htaccess
+/config.php
+/admin/config.php
+
+
+## Image Cache Files
+/image/cache/*
+!/image/cache/index.html
+
+## System Cache Files
+/system/cache/*
+!/system/cache/index.html
+
+## Vqmod Cache Files
+/vqmod/mods.cache
+/vqmod/vqcache/*
+!/image/cache/index.html
+
+
+## System Log Files
+/system/logs/*
+!/system/logs/index.html
+
+## Vqmod Log Files
+/vqmod/logs/*
+!/vqmod/logs/.gitkeep
+ 
+## WHY IGNORE THESE??? COMMENT OUT FOR NOW
+
+## Templates Files
+#/image/templates/*
+#/image/templates/default.jpg
+#
+## Download Files
+#/download/*
+#!/download/index.html
+
+/image
